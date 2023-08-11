@@ -2,8 +2,6 @@
     
     
     
-n= int(input(" enter the number : ")) 
-prime_fac(n) '''
 
 def prime_factorization(n):
     factors = []
