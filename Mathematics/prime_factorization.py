@@ -1,23 +1,7 @@
 
-'''def Isprime(x):
-    for i in range(2,x):    
-        if x % i ==0:
-            return False
-        return True
-    
-def prime_fac(n):
-    for j in range(2,n):
-        if Isprime(j):
-            y = j
-            while(n % y==0):
-                print(j)
-                y=y*j
-        
     
     
     
-n= int(input(" enter the number : ")) 
-prime_fac(n) '''
 
 def prime_factorization(n):
     factors = []
@@ -35,4 +19,7 @@ def prime_factorization(n):
 num = int(input("Enter a number: "))
 prime_factors = prime_factorization(num)
 print("Prime factorization of", num, ":", prime_factors)
+
+time complexity :O(sqrt(n)).
+aux complexity :O(log(n)).
   
