@@ -35,4 +35,7 @@ def prime_factorization(n):
 num = int(input("Enter a number: "))
 prime_factors = prime_factorization(num)
 print("Prime factorization of", num, ":", prime_factors)
+
+time complexity :O(sqrt(n)).
+aux complexity :O(log(n)).
   
