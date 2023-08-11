@@ -1,18 +1,4 @@
 
-'''def Isprime(x):
-    for i in range(2,x):    
-        if x % i ==0:
-            return False
-        return True
-    
-def prime_fac(n):
-    for j in range(2,n):
-        if Isprime(j):
-            y = j
-            while(n % y==0):
-                print(j)
-                y=y*j
-        
     
     
     
