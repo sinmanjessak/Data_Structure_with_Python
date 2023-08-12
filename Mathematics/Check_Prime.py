@@ -23,7 +23,7 @@ def isPrime(n) :
 	
 # Driver Program
 	
-if(isPrime(11)) :
+if(isPrime(7)) :
 	print(" true")
 else :
 	print(" false")
